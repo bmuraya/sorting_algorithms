@@ -5,12 +5,9 @@ An introduction to implementing multiple sorting algorithms separately
 
 ## Built By
 
-* babu Muraya
-{GitHub](https://github.com/bmuraya)
+* Babu Muraya
+* {GitHub](https://github.com/bmuraya)
 
-## Built With
-
-* [c] - Betty formatting
 
 ### Project contents
 
@@ -29,9 +26,6 @@ An introduction to implementing multiple sorting algorithms separately
 |106-bitonic_sort.c|Write a function that sorts an array of integers in ascending order using the Bitonic sort algorithm|
 |107-quick_sort_hoare.c|Write a function that sorts an array of integers in ascending order using the Quick sort algorithm |
 |1000-sort_deck.c|Write a function that sorts a deck of cards.|
-
-
-
 
 ## Resources:books:
 Read or watch:
