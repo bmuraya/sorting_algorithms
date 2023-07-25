@@ -5,8 +5,7 @@ An introduction to implementing multiple sorting algorithms separately
 
 ## Built By
 
-* Babu Muraya
-* {GitHub](https://github.com/bmuraya)
+* [Babu Muraya](https://github.com/bmuraya)
 
 
 ### Project contents
