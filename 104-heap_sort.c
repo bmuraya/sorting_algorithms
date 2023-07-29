@@ -32,6 +32,7 @@ heapify(array, max, size);
  * @array: Array to be sorted
  * @size: Size of the array
  */
+
 void heap_sort(int *array, size_t size)
 {
 int i, tmp;
