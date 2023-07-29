@@ -6,11 +6,11 @@
  * @idx: The index of the parent node
  * @size: The size of the array
  */
-void heapify(int *array, int idx, size_t size)
+void heapify(int *array, size_t idx, size_t size)
 {
-    int max = idx;
-    int left = 2 * idx + 1;
-    int right = 2 * idx + 2;
+    size_t max = idx;
+    size_t left = 2 * idx + 1;
+    size_t right = 2 * idx + 2;
     int tmp;
 
     if (left < size && array[left] > array[max])
@@ -36,14 +36,14 @@ void heap_sort(int *array, size_t size)
 {
     int i, tmp;
 
-    // Build the heap (rearrange the array)
+    /*Build the heap (rearrange the array)*/
     for (i = size / 2 - 1; i >= 0; i--)
         heapify(array, i, size);
 
-    // One by one extract an element from the heap
+    /*One by one extract an element from the heap*/
     for (i = size - 1; i >= 0; i--)
     {
-        // Move the current root to the end
+        /*Move the current root to the end*/ 
         tmp = array[0];
         array[0] = array[i];
         array[i] = tmp;
